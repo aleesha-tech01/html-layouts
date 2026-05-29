@@ -1,85 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Layout 2 — E-Commerce Product Page</title>
+    <title>Pure HTML Product Page</title>
 </head>
+
 <body>
 
-    <!-- Header / Navigation -->
     <header>
-        <div class="logo">
-            <strong>TIMELESS WATCHES</strong>
-        </div>
-        <nav>
-            <a href="#">Men</a> | 
-            <a href="#">Women</a> | 
-            <a href="#">Luxury</a> | 
-            <a href="#">Brands</a>
-        </nav>
-        <hr>
+
+        <table>
+            <tr>
+
+                <td>
+                    <h2>TIMELESS WATCHES</h2>
+                </td>
+
+                <td>
+                    <form>
+                        <input type="text" placeholder="Search">
+                    </form>
+                </td>
+
+                <td>
+                    <nav>
+                        <a href="#">Shop</a>
+                        <a href="#">New Arrivals</a>
+                        <a href="#">Brands</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </td>
+
+            </tr>
+        </table>
+
     </header>
 
-    <!-- Main Content Box -->
+    <br>
+    <br>
+
     <main>
-        <!-- Left Side: Image Section -->
-        <section class="image-gallery" style="display: inline-block; vertical-align: top; width: 45%;">
-            <!-- Main Product Image -->
-            <div class="main-image">
-                <img src="https://via.placeholder.com/400x400?text=Luxury+Watch+Main" alt="Elegant Luxury Watch Main View">
-            </div>
-            <br>
-            <!-- Thumbnails -->
-            <div class="thumbnails">
-                <img src="https://via.placeholder.com/60x60?text=Thumb1" alt="Thumbnail 1">
-                <img src="https://via.placeholder.com/60x60?text=Thumb2" alt="Thumbnail 2">
-                <img src="https://via.placeholder.com/60x60?text=Thumb3" alt="Thumbnail 3">
-                <img src="https://via.placeholder.com/60x60?text=Thumb4" alt="Thumbnail 4">
-            </div>
-        </section>
 
-        <!-- Right Side: Product Details -->
-        <section class="product-details" style="display: inline-block; vertical-align: top; width: 50%; margin-left: 4%;">
-            <h1>Elegant Luxury Watch</h1>
-            <p><strong>Premium Edition</strong></p>
-            
-            <!-- Price and Rating -->
-            <div class="pricing-rating">
-                <p>Price: <del>$1,200.00</del> <strong>$899.00</strong></p>
-                <p>Rating: ★★★★☆ (4.8/5 out of 120 reviews)</p>
-            </div>
+        <table>
+            <tr>
 
-            <!-- Product Description -->
-            <div class="description">
-                <p>Experience timeless elegance with this premium chronograph luxury watch. Featuring a genuine leather strap, sapphire crystal glass, and water resistance up to 100 meters. Perfect for formal events and everyday luxury.</p>
-            </div>
+                <td>
 
-            <!-- Quantity Selector -->
-            <div class="quantity-selector">
-                <label for="quantity">Quantity:</label>
-                <select id="quantity" name="quantity">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
-            </div>
-            <br>
+                    <section>
 
-            <!-- Actions -->
-            <div class="actions">
-                <button type="button">Add to Bag</button>
-                <button type="button">Add to Wishlist</button>
-            </div>
-            <br>
+                        <figure>
 
-            <!-- Shipping Info Box -->
-            <div class="shipping-info">
-                <p>✓ Free Express Shipping WorldWide</p>
-                <p>✓ 2-Year International Warranty</p>
-                <p>✓ 30-Day Easy Returns</p>
-            </div>
-        </section>
+                            <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=420&h=420&fit=crop"
+                                alt="Luxury Watch">
+
+                        </figure>
+
+                        <br>
+
+                        <table>
+                            <tr>
+
+                                <td>
+                                    <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=52&h=52&fit=crop"
+                                        alt="Watch Thumbnail 1">
+                                </td>
+
+                                <td>
+                                    <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=52&h=52&fit=crop"
+                                        alt="Watch Thumbnail 2">
+                                </td>
+
+                                <td>
+                                    <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=52&h=52&fit=crop"
+                                        alt="Watch Thumbnail 3">
+                                </td>
+
+                                <td>
+                                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=52&h=52&fit=crop"
+                                        alt="Watch Thumbnail 4">
+                                </td>
+
+                                <td>
+                                    <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=52&h=52&fit=crop"
+                                        alt="Watch Thumbnail 5">
+                                </td>
+
+                                <td>
+                                    <img src="https://images.unsplash.com/photo-1539874754764-5a96559165b0?w=52&h=52&fit=crop"
+                                        alt="Watch Thumbnail 6">
+                                </td>
+
+                            </tr>
+                        </table>
+
+                    </section>
+
+                </td>
+
+                <td>
+
+                    <section>
+
+                        <h1>Elegant Luxury Watch</h1>
+
+                        <p>PRESTIGE TIME CO.</p>
+
+                        <h2>$499.99</h2>
+
+                        <p>
+                            <del>$799.99</del>
+                            38% OFF
+                        </p>
+
+                        <p>
+                            This luxurious timepiece combines elegance with precision craftsmanship.
+                            Perfect for formal occasions or everyday wear.
+                        </p>
+
+                        <p>
+                            ★★★★★ Rated 4.8/5 (256 reviews)
+                        </p>
+
+                        <hr>
+
+                        <form>
+
+                            <table>
+                                <tr>
+
+                                    <td>
+                                        <button type="button">-</button>
+                                    </td>
+
+                                    <td>
+                                        1
+                                    </td>
+
+                                    <td>
+                                        <button type="button">+</button>
+                                    </td>
+
+                                </tr>
+                            </table>
+
+                            <br>
+                            <br>
+
+                            <button type="submit">
+                                Add to Bag
+                            </button>
+
+                        </form>
+
+                        <br>
+                        <br>
+
+                        <aside>
+
+                            <table>
+                                <tr>
+
+                                    <td>
+
+                                        <h3>Limited-Time Offer!</h3>
+
+                                        <p>
+                                            Get an additional 10% off your first purchase
+                                            when you sign up for our newsletter.
+                                        </p>
+
+                                        <button>
+                                            Sign Up Now
+                                        </button>
+
+                                    </td>
+
+                                </tr>
+                            </table>
+
+                        </aside>
+
+                    </section>
+
+                </td>
+
+            </tr>
+        </table>
+
     </main>
 
 </body>
+
 </html>
+
+                    

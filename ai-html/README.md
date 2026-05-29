@@ -1,12 +1,22 @@
-# Version B - Coded with AI Assistance
+ # Version B (AI-Assisted Version)
 
-### Prompts Used
-- "Create a pure HTML structure for a survey form including name, email, age, dropdown, radio buttons, checkboxes, and a textarea without any CSS styling."
-- "Generate a pure HTML layout for an e-commerce product page with header, main product image, thumbnails, pricing, ratings, description, and add to bag button."
+This folder contains the layouts generated and optimized with the assistance of AI prompts. The objective was to build complex semantic wireframes strictly using pure HTML structure without any CSS decoration.
 
-### How AI Helped & What Was Changed
-- AI ne sahi semantic HTML tags (jaise `<header>`, `<main>`, `<section>`) ko select karne aur format karne me madad ki.
-- **Changes Made:** AI dwara generate kiye gaye code me se extra CSS/styling elements ko hataya gaya taaki assignment ki "Pure HTML structure without decoration" ki requirement bilkul clean aur simple dikhe. Iske sath hi placeholders me realistic text badla gaya.
+## Project Structure & Implementation
 
-# Video Link
-- [YouTube Screen Share Video Link](YAHAN_APNI_VIDEO_KA_LINK_PASTE_KAREIN)
+This version consists of two primary UI layouts built using professional structural components:
+
+1. **Survey Form (`survey-form.html`)**
+   - Implements a clean form structure where labels and active input elements are perfectly side-aligned.
+   - Built using HTML `<table>` matrix spacing rows (`<tr>` and `<td>`) to prevent data clutter and maintain alignment without style properties.
+   - Includes standard required validation fields (`text`, `email`, `number`), single-choice radio grids, and multi-selection checkboxes.
+
+2. **E-Commerce Product Page (`ecommerce-product.html`)**
+   - Built with advanced layout partitioning using a master container table to divide the viewport into a distinct 2-column split desktop grid.
+   - **Header Section:** Features an semantic `<header>` wrapper containing a dedicated layout table to segment the Brand Logo, Search Input Area, and Navigation Bar (`<nav>`) horizontally.
+   - **Left Column Layout (Media Gallery):** Wrapped inside a `<section>` container using a `<figure>` block to showcase the primary $420 \times 420$ product hero image. Directly beneath, an inner grid structure aligns 6 distinct gallery thumbnails horizontally.
+   - **Right Column Layout (Product Specs Panel):** Manages information hierarchy using structural typography (`<h1>` to `<h3>`). Contains structured metadata rows, pricing matrices, an interactive tabular quantity form selector, and an `<aside>` block hosting a dedicated call-to-action newsletter subscription offer.
+
+## Strict Compliance Metrics
+- **Zero CSS Usage:** No external stylesheets, `<style>` tags, or inline `style="..."` attribute configurations are applied anywhere in the document.
+- **Pure Semantic Elements:** Information architecture is mapped entirely via standard HTML5 structural tags (`<header>`, `<main>`, `<section>`, `<aside>`, `<figure>`) alongside traditional table data markers to preserve functional layout spacing.
