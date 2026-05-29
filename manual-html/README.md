@@ -22,3 +22,4 @@ This folder includes two foundational web layouts implemented with basic, sequen
 - **Authentic Manual Development:** The layout leans entirely on default browser rendering and basic block/inline flows, fulfilling the strict human-authored requirements of this assignment.
 
 # video link:
+https://drive.google.com/file/d/1wiPRH5K0stPdHTtfak5gpwMahPPUZG8a/view?usp=drivesdk

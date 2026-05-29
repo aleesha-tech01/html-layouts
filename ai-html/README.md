@@ -20,3 +20,6 @@ This version consists of two primary UI layouts built using professional structu
 ## Strict Compliance Metrics
 - **Zero CSS Usage:** No external stylesheets, `<style>` tags, or inline `style="..."` attribute configurations are applied anywhere in the document.
 - **Pure Semantic Elements:** Information architecture is mapped entirely via standard HTML5 structural tags (`<header>`, `<main>`, `<section>`, `<aside>`, `<figure>`) alongside traditional table data markers to preserve functional layout spacing.
+
+# REPO LINK:
+https://drive.google.com/file/d/14Zzk-MGOC9Kd3MKgevwBwxmzCdA93OP6/view?usp=drivesdk
